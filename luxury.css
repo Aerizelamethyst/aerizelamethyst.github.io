@@ -63,3 +63,9 @@
   #about-video-toggle { bottom:12px; left:5%; }
   #artist .artist-copy { width:100%; padding:42px 6% 52px; }
 }
+
+.short-film { display:grid; grid-template-columns:minmax(13rem, .8fr) minmax(0, 1.8fr); gap:clamp(1.5rem,5vw,5rem); align-items:center; margin-top:clamp(3.5rem,8vw,7rem); scroll-margin-top:2rem; }
+.short-film .eyebrow { margin:0 0 0.8rem; }
+.short-film h2 { margin:0; font-size:clamp(2.75rem,5.2vw,5.5rem); line-height:0.98; letter-spacing:-0.035em; }
+.short-film video { display:block; width:100%; height:auto; aspect-ratio:16/9; background:#141412; }
+@media(max-width:760px) { .short-film { grid-template-columns:1fr; gap:1.25rem; } }
