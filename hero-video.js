@@ -49,3 +49,4 @@ function setupFilm(videoId, buttonId, label) {
 }
 setupFilm('hero-video', 'hero-video-toggle', 'background video');
 setupFilm('about-video', 'about-video-toggle', 'artist film');
+setupFilm('contact-video', 'contact-motion', 'contact background animation');
